@@ -22,7 +22,7 @@ RUN_DATA_API = "https://api.gotokeep.com/pd/v3/stats/detail?dateUnit=all&type=ru
 RUN_LOG_API = "https://api.gotokeep.com/pd/v3/runninglog/{run_id}"
 
 # If your points need trans from gcj02 to wgs84 coordinate which use by Mappbox
-TRANS_GCJ02_TO_WGS84 = True
+TRANS_GCJ02_TO_WGS84 = False #True
 
 
 def login(session, mobile, passowrd):
